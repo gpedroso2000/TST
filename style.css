@@ -6,16 +6,16 @@
 
 h2{
     text-align: center;
-    font: normal normal bold 39px/50px Trebuchet MS;
-    letter-spacing: 0.78px;
+    font: normal normal bold 2.438rem/3.125rem Trebuchet MS;
+    letter-spacing: 0.049rem;
     color: #389CD6;
     opacity: 1;
 }
 
 p {
     text-align: center;
-    font: normal normal normal 20px/28px Trebuchet MS;
-    letter-spacing: 0.4px;
+    font: normal normal normal 1.25rem/1.75rem Trebuchet MS;
+    letter-spacing: 0.025rem;
     color: #7B7070;
     opacity: 1;
 }
@@ -29,12 +29,8 @@ ul {
     list-style: none;
 }
 
-header, section{
-    width: 120rem;  
-}
-
 i{
-    width: 24px;
+    width: 1.5rem;
     text-align: center;
 }
 
@@ -58,49 +54,48 @@ i{
 
 #brandImg{
     position: absolute; 
-    top: 0px;
-    left: 862px;
-    width: 195px;
-    height: 79px;
+    top: 0rem;
+    left: 30rem;
+    width: 12.188rem;
+    height: 4.938rem;
     opacity: 1; 
 }
  
 #search{
     position: absolute; 
     top: 1.75rem;
-    left: 92.5625rem;
+    left: 75%;
     width: 1.5rem;
     height:  1.5rem;
 }
 
-.divNavBarMobile{
+#divNavBarMobile{
     position: absolute;
-    top: 70px;
-    left: 0px;
+    top: 4.375rem;
+    left: 0rem;
     z-index: 1;
-    width: 428px;
-    height: 920px;
-    background: #389CD6 0% 0% no-repeat padding-box;
+    width: 100%;
+    background: #389CD6 0% 0% no-repeat padding-box; 
     
 }
 
 #ulNavBarMobile{
-    width: 199px;
-    height: 705px;
-    margin-top: 40px;
-    margin-left: 16px;
+    width: 12.438rem;
+    height: 100%;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
 
 .optionMobile{
-    padding-top:15px;
-    padding-bottom: 13px;
-    padding-left: 24px;
-    margin-bottom: 20px;
+    padding-top:0.938rem;
+    padding-bottom: 0.813rem;
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
     text-align: left;
     font: normal normal bold 16px/22px Trebuchet MS;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     color: #FFFFFF;
     opacity: 1;
     cursor: pointer;
@@ -111,25 +106,26 @@ i{
 }
 
 #divNavBar{
-    width: 1920px;
     height: 3.0625rem;
     background: #389CD6 0% 0% no-repeat padding-box;
     opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #navOptions{
-    position: absolute;
-    left: 36.3125rem;
     display: flex;
 }
 
 #subAbout{
     display: none;
     position: absolute;
-    top: 49px;
-    left: -581px;
-    width: 1920px;
-    height: 49px;
+    top: 8rem;
+    left: -15rem;
+    width: 120.6rem;
+    height: 3.063rem;
     background: #9D8E8E 0% 0% no-repeat padding-box;
 }
 
@@ -140,10 +136,10 @@ i{
 #subProduct{
     display: none;
     position: absolute;
-    top: 49px;
-    left: -581px;
-    width: 1920px;
-    height: 49px;
+    top: 8rem;
+    left: -15rem;
+    width: 120.6rem;
+    height: 3.063rem;
     background: #9D8E8E 0% 0% no-repeat padding-box;
 }
 
@@ -154,10 +150,10 @@ i{
 #subIntimate{
     display: none;
     position: absolute;
-    top: 49px;
-    left: -581px;
-    width: 1920px;
-    height: 49px;
+    top: 8rem;
+    left: -15rem;
+    width: 120.6rem;
+    height: 3.063rem;
     background: #9D8E8E 0% 0% no-repeat padding-box;
 }
 
@@ -167,7 +163,7 @@ i{
 
 .ulSubNavBar{
     display: flex;
-    margin-left: 390px;
+    margin-left: 24.375rem;
 }
 
 .option{
@@ -182,94 +178,93 @@ i{
 }
 
 #bannerHero{
-    width: 1920px;
-    height: 550px;
+    height: 34.375rem;
     background: transparent url('./img/banner-hero.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    background-size: 100%;
 }
 
 #h2Help{
-    width: 360px;
-    height: 46px;
-    margin-top: 80px;
-    margin-right: 782px;
-    margin-left: 782px;
-    margin-bottom: 40px;
+    width: 22.5rem;
+    height: 2.875rem;
+    margin-top: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5rem;
 }
 
 #divHelp{
-    position: relative;
-    width: 550px;
-    height: 251px;
-    left: 685px;
-    right:685px;
-    margin-bottom: 40px;
+    width: 34.375rem;
+    height: 15.688rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.5rem;
 }
 
 #divIcons{
-    margin-left: 394px;
-    margin-right: 394px;
-    width: 1132px;
-    height: 259px;
-    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70.75rem;
+    height: 16.188rem;
+    margin-bottom: 5rem;
     background: transparent url('./img/icons.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 #h2Life{
-    margin-right: 588px;
-    margin-left: 588px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 40px;
-    width: 744px;
-    height: 96px;
+    width: 46.5rem;
+    height: 6rem;
 }
 
 #divLife{
-    margin-left: 588px;
-    margin-right: 588px;
-    margin-bottom: 120px;
-    width: 744px;
-    height: 151px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7.5rem;
+    width: 46.5rem;
+    height: 9.438rem;
 }
 
 #h2Products{
-    margin-left: 589px;
-    margin-right: 587px;
-    margin-bottom: 80px;
-    width: 744px;
-    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    height: 2.875rem;
 }
 
 .h2Products{
-    width: 356px;
-    height: 351px;
+    width: 22.25rem;
+    height: 21.938rem;
     opacity: 1;
 }
 
 #groupCard{
-    margin-bottom: 120px;
-    margin-left: 362px;
+    margin-bottom: 7.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cardProd{
     display: inline-block;
-    margin-left: 33px;
-    width: 356px;
-    height: 530px;
+    margin-left: 2.063rem;
+    width: 22.25rem;
+    height: 33.125rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 16px #00000014;
-    border-radius: 16px;
+    border-radius: 1;
     opacity: 1;
 }
 
 .textCard{
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .foCard{
-    width: 356px;
-    height: 73px;
+    width: 22.25rem;
+    height: 4.563rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,57 +291,59 @@ i{
 
 #imgInt{
     background: transparent url('./img/Asset\ 22.png') 0% 0% no-repeat padding-box;
-    width: 1920px;
-    height: 437px;
+    height: 27.313rem;
+    background-size: 100%;
+    
 }
 
 #divMore{
-    width: 1175px;
-    height: 640px;
+    width: 73.438rem;
+    height: 40rem;
     opacity: 1;
-    margin-left: 361px;
-    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7.5rem;
 }
 
 #h2More{
-    margin-top:120px;
-    margin-bottom:80px ;
+    margin-top:7.5rem;
+    margin-bottom:5rem ;
 }
 
 .cardMore{
     display: inline-block;
-    width: 356px;
-    height: 355px;
+    width: 22.25rem;
+    height: 22.188rem;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 16px #00000014;
-    border-radius: 16px;
+    border-radius: 1rem;
     opacity: 1;
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 .textCardMore{
-    width: 292px;
-    height: 51px;
-    margin-top: 24px;
-    margin-right: 32px;
-    margin-left: 32px;
-    margin-bottom: 50px;
+    width: 18.25rem;
+    height: 3.188rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3.125rem;
     text-align: left;
     font: normal normal normal 20px/28px Trebuchet MS;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025rem;
     color: #7B7070;
     opacity: 1;
 }
 
 #button{
-    margin-left: 411px;
-    margin-top: 85px;
-    width: 356px;
-    height: 64px;
+    margin-left: 25.688rem;
+    margin-top: 5.313rem;
+    width: 22.25rem;
+    height: 4rem;
     background: #389CD6 0% 0% no-repeat padding-box;
-    border-radius: 16px;
+    border-radius: 1rem;
     font: normal normal bold 20px/28px Trebuchet MS;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.025rem;
     color: #FFFFFF;
     text-transform: lowercase;
     display: flex;
@@ -356,17 +353,14 @@ i{
 
 #contactFoot{
     position: relative;
-    width: 1920px;
-    height: 242px;
     background: #389CD6 0% 0% no-repeat padding-box;
-    padding-top: 41px;
+    padding-top: 2.563rem;
+    padding-bottom: 4rem;
 }
 
 #groupNavFoot{
-    height: 100%;
-    width: 886px;
-    margin-left: 507px;
-    margin-left: 507px;
+    display: flex;
+    justify-content: center;
 }
 
 #navBarFoot{
@@ -374,13 +368,13 @@ i{
 }
 
 .optionFoot{
-    padding-left:  24px;
-    padding-right: 24px;
-    padding-top: 15px;
-    padding-bottom: 13px;
+    padding-left:  1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.938rem;
+    padding-bottom: 0.813rem;
     text-align: center;
     font: normal normal bold 16px/22px Trebuchet MS;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     color: #FFFFFF;
     opacity: 1;
 }
@@ -389,9 +383,9 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
+    width: 1.25rem;
     font: normal normal bold 16px/22px Trebuchet MS;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     color: #FFFFFF;
 }
 
@@ -399,38 +393,37 @@ i{
     display: none;
     justify-content: center;
     align-items: center;
-    width: 20px;
+    width: 1.25rem;
     font: normal normal bold 16px/22px Trebuchet MS;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02rem;
     color: #FFFFFF;
 }
 
+#groupNavImg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.813rem;
+}
+
 #imgLab{
-    position: absolute;
-    top: 149px;
-    bottom: 64px;
-    left: 394px;
-    right: 1410px;
-    width: 116px;
-    height: 29px;
+    width: 7.25rem;
+    height: 1.813rem;
+    margin-right: 42rem;
 }
 
 #imgSocial{
-    position: absolute;
-    top: 144px;
-    bottom: 55.42px;
-    left: 1483.46px;
-    right: 394px;
-    width: 43px;
-    height: 43px;
+    width: 2.688rem;
+    height: 2.688rem;
 }
+
 
 .hide{
     display: none;
 }
 
 
-@media screen and (max-width: 428px) { 
+@media screen and (max-width: 500px) { 
     h2{
         text-align: center;
         font: normal normal bold 31px/40px Trebuchet MS;
@@ -450,105 +443,88 @@ i{
     }
 
     #brand{
-        width: 428px;
-        height: 70px;
+        height: 4.375rem;
     }
 
     #brandImg{
-        top: 6px;
-        left: 143px;
-        width: 143px;
-        height: 58px;
+        top: 0.375rem;
+        left: 8.938rem;
+        height: 3.625rem;
     }
 
     #search{
-        top: 23px;
-        left: 374px;
-        width: 24px;
-        height: 24px;
+        top: 1.438rem;
+        left: 23.375rem;
+        height: 1.5rem;
     }
 
     .menuImg{
         display: inline-block;
-        top: 23px;
-        left: 30px;
-        width: 24px;
-        height: 24px;
+        top: 1.438rem;
+        left: 1.875rem;
+        height: 1.5rem;
     }
     
     .closeImg{
-        top: 25px;
-        left: 32px;
-        width: 15px;
-        height: 15px; 
-           
+        top: 1.563rem;
+        left: 2rem;
+        height: 0.938rem; 
     }
 
     #bannerHero{
-        width: 429px;
-        height: 475px;
+        height: 29.688rem;
         background: transparent url('./img/mobile/banner-intibiome-02.png') 0% 0% no-repeat padding-box;
-    }
-
-    #sectionHelp{
-        width: 428px;
+        background-size: 100%;
     }
 
     #h2Help{
-        width: 285px;
-        height: 36px;
-        margin-top: 40px;
-        margin-bottom: 32px;
-        margin-left: 72px;
-        margin-right: 72px;
+        height: 2.25rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
         font: normal normal bold 31px/40px Trebuchet MS;
-        letter-spacing: 0.62px;
+        letter-spacing: 0.039rem;
     }
 
     #divHelp{
-        left: 18px;
-        width: 392px;
-        height: 205px;
+        width: 24.5rem;
+        height: 12.813rem;
         font: normal normal normal 16px/22px Trebuchet MS;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02rem;
     }
 
     #divIcons{
-        margin-left: 18px;
-        margin-bottom: 40px;
-        width: 392px;
-        height: 121px;
+        margin-bottom: 2.5rem;
+        width: 24.5rem;
+        height: 7.563rem;
         background-image: url('./img/mobile/icons.png');
     }
 
     #h2Life{
-        margin-left: 18px;
-        margin-bottom: 40px;
-        width: 392px;
-        height: 116px;
+        margin-bottom: 2.5rem;
+        width: 24.5rem;
+        height: 7.25rem;
     }
 
     #divLife{
-        margin-left: 18px;
-        margin-bottom: 80px;
-        width: 392px;
-        height: 167px;      
+        margin-bottom: 5rem;
+        width: 24.5rem;
+        height: 10.438rem;      
     }
 
     #h2Products{
-        width: 392px;
-        height: 36px;
-        margin-left: 18px;
-        margin-bottom: 40px;
+        width: 24.5rem;
+        height: 2.25rem;
+        margin-bottom: 2.5rem;
     }
 
     #groupCard{
-        margin-left: 5px;
-        margin-bottom: 64px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .cardProd{
-        margin-left: 16px;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
     }
 
     .textCard{
@@ -561,48 +537,45 @@ i{
 
     #imgInt{
         background-image: url('./img/mobile/banner-intibiome-05.png');
-        width: 428px;
-        height: 470px;
+        height: 29.375rem;
+        background-size: 100%;
+
     }
 
     #divMore{
-        margin-left: 2px;
-        margin-bottom: 80px;
-        height: auto;
-
+        margin-bottom: 5rem;
+        width: 24.5rem;
+        height: 100%;
     }
 
     #h2More{
-        width: 392px;
-        height: 76px;
-        margin-top:40px;
-        margin-bottom:40px;
-        margin-left: 18px;
-        margin-right: 18px;
+        height: 4.75rem;
+        margin-top:2.5rem;
+        margin-bottom:2.5rem;
     }
 
     .cardMore{
-        margin-left: 16px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 
     #button{
-        width: 392px;
-        height: 64px;
-        margin-left: 18px;
-        margin-top: 40px
+        width: 24.5rem;
+        height: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5rem;
     }
 
     #contactFoot{
-        width: 428px;
-        height: 766px;
-        padding-top: 32px;
+        height: 100%;
+        padding-top: 2rem;
     }
 
     #groupNavFoot{
-        position: relative;
-        margin-left: 135px;
-        width: 158px;
-        height: 734px
+        margin-left: auto;
+        margin-right: auto;
+        height: 45.875rem;
     }
 
     #navBarFoot{
@@ -618,19 +591,19 @@ i{
         margin: auto;
     }
 
+    #groupNavImg{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 3.813rem;
+    }
+
     #imgLab{
-        left: 156px;
-        top: 636px;
-        width: 116px;
-        height: 29px;   
+        margin-right: 0rem;
     }
 
     #imgSocial{
-        left: 192.73px;
-        top: 485px;
-        width: 43px;
-        height: 43px;       
-     
+        margin-bottom: 6.776rem;
     }
 
  }
