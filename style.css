@@ -423,7 +423,7 @@ i{
 }
 
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 1000px) { 
     h2{
         text-align: center;
         font: normal normal bold 31px/40px Trebuchet MS;
@@ -447,14 +447,14 @@ i{
     }
 
     #brandImg{
-        top: 0.375rem;
-        left: 8.938rem;
+        top: 2%;
+        left: 25%;
         height: 3.625rem;
     }
 
     #search{
         top: 1.438rem;
-        left: 23.375rem;
+        left: 85%;
         height: 1.5rem;
     }
 
