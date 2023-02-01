@@ -10,5 +10,5 @@
 #### .CSS
 #### .JAVASCRIPT
 
-### Site : https://page-static-gpedroso2000.vercel.app/
+### Site : https://page-inti-gpedroso2000.vercel.app/
 
